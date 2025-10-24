@@ -6,13 +6,15 @@ void main() {
 
   List<Question> questions = [
     Question(
-        title: "Capital of France?",
+        title: "Capital of France? - 10 points",
         choices: ["Paris", "London", "Rome"],
-        goodChoice: "Paris"),
+        goodChoice: "Paris",
+        points: 10),
     Question(
-        title: "2 + 2 = ?", 
+        title: "2 + 2 = ? - 50 points", 
         choices: ["2", "4", "5"], 
-        goodChoice: "4"),
+        goodChoice: "4",
+        points: 50),
   ];
 
   Quiz quiz = Quiz(questions: questions);

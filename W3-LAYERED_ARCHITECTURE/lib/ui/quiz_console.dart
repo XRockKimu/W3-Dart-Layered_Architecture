@@ -28,8 +28,10 @@ class QuizConsole {
     }
 
     int score = quiz.getScoreInPercentage();
+    int points = quiz.getPoints();
     print('--- Quiz Finished ---');
     print('Your score: $score % correct');
+    print('Your points: $points');
   }
 }
  
